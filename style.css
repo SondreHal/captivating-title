@@ -1,130 +1,164 @@
 body {
-   margin: 0;
-   background: rgb(15, 15, 15);
-   color: #fff;
-   font-family: "Roboto", sans-serif;
-   font-weight: 300;
+	/*Box model stuff*/
+	margin: 0;
+	background: rgb(15, 15, 15);
+	/*Typography stuff*/
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	color: #fff;
 }
 
 h1 {
-   color: azure;
-   text-align: center;
-   font-size: 4rem;
-   font-family: "Roboto", sans-serif;
-   font-weight: 900;
-   margin-top: 15px;
+	/*Box model stuff*/
+	margin-top: 15px;
+	/*Typography stuff*/
+	font-family: "Roboto", sans-serif;
+	font-size: 4rem;
+	font-weight: 900;
+	text-align: center;
+	color: azure;
 }
 
 audio {
-   display: flex;
-   margin: auto;
-   margin-bottom: 30px;
+	/*Display stuff*/
+	display: flex;
+	/*Box model stuff*/
+	margin: auto;
+	margin-bottom: 30px;
 }
 
 h2 {
-   margin: 0;
-   padding: 10px;
-   border: 10px;
-   text-align: center;
-   background: rgb(255, 35, 35);
-   box-shadow: white 5px 5px 5px;
+	/*Box model stuff*/
+	margin: 0;
+	padding: 10px;
+	border: 10px;
+	background: rgb(255, 35, 35);
+	/*Typography stuff*/
+	text-align: center;
+	/*Miscellaneous*/
+	box-shadow: white 5px 5px 5px;
 }
 
 .navigation {
-   display: block;
-   padding: 0 1rem;
-   list-style-type: none;
-   margin: 0;
-   overflow: hidden;
-   background-color: #333;
+	/*Display stuff*/
+	display: block;
+	/*Box model stuff*/
+	margin: 0;
+	padding: 0 1rem;
+	background-color: #333;
+	/*Miscellaneous*/
+	list-style-type: none;
+	overflow: hidden;
 }
 
 .navigation-background {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-   background-color: #333;
+	/*Box model stuff*/
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	/*Miscellaneous*/
+	list-style-type: none;
+	overflow: hidden;
 }
 
 .container {
-   max-width: 1000px;
-   margin: 0 auto;
-   padding: 0 10px;
+	/*Box model stuff*/
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px;
 }
 
 .columns {
-   display: flex;
+	/*Display stuff*/
+	display: flex;
 }
 
 .main-content {
-   width: 65%;
-   margin: 0;
-   padding: 0 auto;
+	/*Box model stuff*/
+	width: 65%;
+	margin: 0;
+	padding: 0 auto;
 }
 
 .sidebar {
-   width: 30%;
-   margin: 0 25px;
-   padding: 0 auto;
+	/*Box model stuff*/
+	width: 30%;
+	margin: 0 25px;
+	padding: 0 auto;
 }
 
 .col-text {
-   margin: 0;
-   padding: 20px 15px 0;
+	/*Box model stuff*/
+	margin: 0;
+	padding: 20px 15px 0;
 }
 
 .col-image {
-   margin-bottom: 20px;
-   padding-top: 20px;
-   padding-left: 20px;
+	/*Box model stuff*/
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 .background-column {
-   display: flex;
-   background: rgb(33, 33, 33);
-   box-shadow: white 5px 5px 5px;
-   margin-bottom: 25px;
+	/*Display stuff*/
+	display: flex;
+	/*Box model stuff*/
+	margin-bottom: 25px;
+	background: rgb(33, 33, 33);
+	/*Miscellaneous*/
+	box-shadow: white 5px 5px 5px;
 }
 
 li a {
-   display: block;
-   color: white;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
+	/*Display stuff*/
+	display: block;
+	/*Box model stuff*/
+	padding: 14px 16px;
+	/*Typography stuff*/
+	text-align: center;
+	text-decoration: none;
+	color: white;
 }
 
 li a:hover {
-   background-color: #111;
+	/*Box model stuff*/
+	background-color: #111;
 }
 
 .active {
-   background-color: rgb(255, 35, 35);
+	/*Box model stuff*/
+	background-color: rgb(255, 35, 35);
 }
 
 .shrek {
-   width: 700px;
-   height: auto;
+	/*Box model stuff*/
+	width: 700px;
+	height: auto;
 }
 
 #demo {
-   text-align: center;
-   font-size: 1.5rem;
-   color: rgb(255, 35, 35);
+	/*Typography stuff*/
+	font-size: 1.5rem;
+	text-align: center;
+	color: rgb(255, 35, 35);
 }
 
 .queue-pictures {
-   display: flex;
+	/*Display stuff*/
+	display: flex;
 }
 
 .center-pictures {
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+	/*Display stuff*/
+	display: block;
+	/*Box model stuff*/
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .flex {
-   display: flex;
-   justify-content: space-around;
+	/*Display stuff*/
+	display: flex;
+	justify-content: space-around;
 }
